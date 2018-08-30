@@ -1,0 +1,294 @@
+@media screen and (min-width: 200px) and (max-width: 2400px) {
+	.modal-dialog .text-right {
+		text-align:center;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+	.menu-mobile {
+		display:block;
+		position:absolute;
+	}
+	
+	.welcome-p , .bot-header-wp {
+		display:none;
+	}
+	
+	.welcome {
+		color: #fff;
+		padding-top: 0px;
+	}
+	
+	.header {
+		text-align: left;
+	}
+	
+	.menu-mobile a {
+		color: #fff;
+	}
+	
+	.logo-wp {
+		padding-top: 20px;
+		text-align: center;
+	}
+	
+	.mid-header-wp {
+		height:inherit;
+		background: #fff;
+	}
+	
+	#slider-banner .sp-thumbnail-container {
+		width: 240px !important;
+	}
+	
+	.mid-head-right-b {
+		width: 270px;
+		margin: 0 auto;
+	}
+	
+	.banner-content-2 .box_img img {
+		-webkit-transition: all ease 0.4s;
+		transition: all ease 0.4s;
+		max-width: 100%;
+		width:inherit;
+	}
+	
+	.modal-lg {
+		width:auto;
+	}
+	
+	.previews {
+		width:inherit;
+	}
+    
+	.sort-bt {
+		display:block;
+	}
+	
+	.sort-block {
+		display: none;
+	}
+	
+	.modal-dialog .text-right {
+		text-align:center;
+	}
+	
+}
+
+@media screen and (min-width: 200px) and (max-width: 990px) {
+	.banner-content-2 .box_img {
+		width: 50%;
+		float: left;
+		overflow: hidden;
+	}
+	
+	.block-product-scroll .owl-prev {
+		left: 0px;
+		top: 150px;
+	}
+	
+	.block-product-scroll .owl-next {
+		right: 0px;
+		top: 150px;
+	}
+	
+	.menu_info_wapper {
+		padding-top: 20px;
+		height: 284px;
+	}
+	
+	.copyright {
+		text-align: center;
+	}
+	
+	.bay_nam {
+		margin: 10px auto;
+	}
+	
+	.footer-wp2 div {
+		text-align:center;
+	}
+	
+	.block-product-scroll-no .name-product a {
+		font-size: 20px;
+		color: #333;
+	}
+	
+	.block-product-scroll-no .product-price {
+		float: left;
+		font-weight: normal;
+		font-size: 18px;
+	}
+	
+	.top-search-l {
+		float: left;
+		width: 60%;
+	}
+	
+	.top-search-m {
+		float: left;
+		width: 30%;
+	}
+	
+	.search-category {
+		width: 100%;
+	}
+	
+	.top-search-r {
+		width: 10%;
+	}
+	
+	.button-search {
+		width: 100%;
+	}
+	
+	.modal-dialog .text-right {
+		text-align:center;
+	}
+	
+}
+
+@media screen and (min-width: 200px) and (max-width: 790px) {
+	.newsletter {
+		width: 500px;
+		margin: 0 auto;
+	}
+	
+	.newsletter {
+		padding-top: 20px;
+		position: relative;
+	}
+	
+	
+}
+
+@media screen and (min-width: 200px) and (max-width: 690px) {
+	.newsletter {
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 30px;
+		padding-right:30px;
+	}
+	
+	.footer-bag {
+		padding: 5px;
+	}
+	
+	.h-banner {
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	
+	.form-newsletters .form-control {
+		background: #333;
+		height: 50px;
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	.banner-content-2 .box_img {
+		width: 100%;
+	}
+	
+	.button-product-detail .form-group {
+		display: inline-block;
+	}
+	
+	.top-search-l {
+		width: 100%;
+	}
+	
+	.top-search-wp .form-control {
+		height: 44px;
+		border-top: 4px solid #e91f6b;
+		border-left: 4px solid #e91f6b;
+		border-bottom: 4px solid #e91f6b;
+		border-radius: 0px;
+		border-right: 4px solid #e91f6b;
+	}
+	
+	.search-category {
+		background-image: none;
+		border-top: 4px solid #e91f6b;
+		border-left: 1px solid #e91f6b;
+		border-bottom: 4px solid #e91f6b;
+		padding: 8px 20px;
+		border-radius: 0px;
+		width: 200px;
+		border-left: 4px solid #e91f6b;
+		margin-top: 5px;
+	}
+	.top-search-m {
+		
+		float: left;
+		width: 90%;
+	}
+	.top-search-r{
+		
+	}
+	
+	.search-category {
+		width: 100%;
+	}
+	
+	.modal-sign-l {
+		width: inherit;
+	}
+	
+	.cart-top .dropdown-menu {
+		right: -150px;
+	}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 503px) {
+	.top-search-m {
+		float: left;
+		width: 85%;
+	}
+	
+	.top-search-r {
+		width: 15%;
+	}
+	
+	.modal-dialog .text-right {
+		text-align:center;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 440px) {
+	.col-xxs-12 {
+		width:100%;
+	}
+	
+	.menu_info_wapper {
+		padding-top: 20px;
+		height:inherit;
+	}
+	
+	.title-content h3 {
+		width:inherit;
+	}
+	
+	.modal-sign-l {
+		width: 100%;
+	}
+	
+	.modal-sign-r {
+		float: left;
+		width: 100%;
+	}
+	
+	.cart-top .dropdown-menu {
+		right: -35px;
+	}
+	
+	.wish-list-wp .cart-top .dropdown-menu {
+		right: -190px;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 350px) {
+
+}
+

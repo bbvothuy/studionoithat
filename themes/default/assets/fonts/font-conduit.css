@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'conduit_itcbold';
+	src: url('conduit_itc_bold-webfont.woff2') format('woff2'),  url('conduit_itc_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'conduit_itcbold_italic';
+	src: url('conduit_itc_bold_italic-webfont.woff2') format('woff2'),  url('conduit_itc_bold_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'conduit_itclight';
+	src: url('conduit_itc_light-webfont.woff2') format('woff2'),  url('conduit_itc_light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'conduit_itcmedium';
+	src: url('conduit_itc_medium-webfont.woff2') format('woff2'),  url('conduit_itc_medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'conduit_itcmedium_italic';
+	src: url('conduit_itc_medium_italic-webfont.woff2') format('woff2'),  url('conduit_itc_medium_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
