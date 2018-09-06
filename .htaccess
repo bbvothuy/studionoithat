@@ -11,6 +11,7 @@ RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
 AddType application/x-httpd-php54 .php
 # Enable Compression
 <IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
   AddOutputFilterByType DEFLATE application/javascript
   AddOutputFilterByType DEFLATE application/rss+xml
   AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
@@ -31,6 +32,13 @@ AddType application/x-httpd-php54 .php
   AddOutputFilterByType DEFLATE text/html
   AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+ 
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
 </IfModule>
 <IfModule mod_gzip.c>
   mod_gzip_on Yes
