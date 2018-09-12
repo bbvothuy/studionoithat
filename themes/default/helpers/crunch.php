@@ -97,7 +97,7 @@ class JSCrunch extends Crunch
             file_put_contents(theme_path().'assets/js/'.$filename, $buffer);
         }
 
-        echo '<script type="text/javascript" src="'.theme_js($filename).'"></script>';
+        echo '<script type="text/javascript"src="'.theme_js($filename).'"></script>';
 
         $this->files = [];
     }

@@ -397,9 +397,47 @@
     </div>
 </div>
 
-<script type="text/javascript" src="<?php echo theme_js('owl.carousel.js');?>"></script>
-<script type="text/javascript" src="<?php echo theme_js('main-script.js');?>"></script>
-<script type="text/javascript" src="<?php echo theme_js('jquery.fancybox.js');?>"></script>
+
+<?php
+$_css = new CSSCrunch();
+//$_css->addFile('bootstrap.min');
+$_css->addFile('font-awesome.min');
+//$_css->addFile('vendor');
+//$_css->addFile('styles');
+$_css->addFile('mobile');
+$_css->addFile('animate');
+
+$_js = new JSCrunch();
+//$_js->addFile('jquery.min');
+$_js->addFile('bootstrap.min');
+$_js->addFile('script');
+$_js->addFile('jquery.sliderPro.min');
+$_js->addFile('bootbox.min');
+
+if(true) //Dev Mode
+{
+    //in development mode keep all the css files separate
+	$_css->crunch(true);
+	$_js->crunch(true);
+}
+else
+{
+    //combine all css files in live mode
+	$_css->crunch(true);
+	$_js->crunch();
+}
+
+
+//with this I can put header data in the header instead of in the body.
+if(isset($additional_header_info))
+{
+    echo $additional_header_info;
+}
+?>
+
+<script type="text/javascript" defer="defer" src="<?php echo theme_js('owl.carousel.js');?>"></script>
+<script type="text/javascript" defer="defer" src="<?php echo theme_js('main-script.js');?>"></script>
+<script type="text/javascript" defer="defer" src="<?php echo theme_js('jquery.fancybox.js');?>"></script>
 
 <script>
 $(document).ready(function(){
@@ -544,7 +582,7 @@ $(document).ready(function(){
 }); //closing our doc ready
 </script>
 
-<script type="text/javascript" src="<?php echo theme_js('vmenuModule.js');?>"></script>
+<script type="text/javascript" defer="defer" src="<?php echo theme_js('vmenuModule.js');?>"></script>
 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -610,13 +648,13 @@ function updateItemCount(items)
 	
 </script>
 <!-- menu mobile -->
-<script type="text/javascript" src="<?php echo theme_js('jquery.mmenu.all.min.js');?>"></script>
+<script type="text/javascript" defer="defer" src="<?php echo theme_js('jquery.mmenu.all.min.js');?>"></script>
 <script type="text/javascript">
 	$(function() {
 		$('nav#menu').mmenu();
 	});
 </script>
-
+<script defer="defer" async="async" src='https://www.google.com/recaptcha/api.js?hl=vi'></script>
 
 <script type="text/javascript">
 	/* <![CDATA[ */
@@ -625,7 +663,7 @@ function updateItemCount(items)
 	var google_remarketing_only = true;
 	/* ]]> */
 </script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<script type="text/javascript" defer="defer" async="async" src="//www.googleadservices.com/pagead/conversion.js"></script>
 <noscript>
 	<div style="display:inline;">
 	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983101597/?value=0&amp;guid=ON&amp;script=0"/>
