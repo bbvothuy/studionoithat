@@ -45,7 +45,7 @@
                                 <img src="/themes/default/assets/images/zalo-icon.jpg">
                             </div>
                         	<h5><strong>TPHCM</strong></h5>
-                        	<p>Mr.Thái <span class="pink"><strong>0903 935 666</strong></span></p>
+                        	<p>Mr.Thái <a href="tel:+84903935666"><span class="pink"><strong>0903 935 666</strong></span></a></p>
                         </li>
                         <li>
                         	<div class="posioton-footer-icon">
@@ -53,7 +53,7 @@
                                 <img src="/themes/default/assets/images/zalo-icon.jpg">
                             </div>
                         	<h5><strong>Hà Nội</strong></h5>
-                        	<p>Mr.Giáp <span class="pink"><strong>0913 867 940</strong></span></p>
+                        	<p>Mr.Giáp <a href="tel:+84913867940"><span class="pink"><strong>0913 867 940</strong></span></a></p>
                         </li>
                         <li>
                         	<div class="posioton-footer-icon">
@@ -61,7 +61,7 @@
                                 <img src="/themes/default/assets/images/zalo-icon.jpg">
                             </div>
                         	<h5><strong>Đà Lạt</strong></h5>
-                        	<p>Mr.Tựu <span class="pink"><strong>0944 956 568</strong></span></p> 
+                        	<p>Mr.Tựu <a href="tel:+84944956568"><span class="pink"><strong>0944 956 568</strong></span></a></p> 
                         </li>
                     </ul>
               	</div>
@@ -83,7 +83,7 @@
                 <p>
                     123/2 Liên Khu 4-5, phường Bình Hưng Hoà B, Quận Bình Tân, Hồ Chí Minh, Việt Nam.</p>
                 <p>
-                    Hotline: <span style="font-size:14px;">0903 935 666</span> (Mr.Thái)</p>
+                    Hotline: <span style="font-size:14px;"><a href ="tel:+840903935666">0903 935 666</a></span> (Mr.Thái)</p>
 				</div>
                 <div>
                 	<a href="https://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=1519" target="_blank"><img src="/themes/default/assets/images/logo_so_cong_thuong.jpg"></a>
